@@ -1,0 +1,96 @@
+html {
+	background: #aaa;
+	height: 100%;
+}
+body {
+	background: #aaa;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
+a:hover {
+	color: #a1a1a1;
+}
+
+p {
+	margin: 0;
+	padding: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 10px;
+}
+
+li {
+	display: block;
+}
+
+#pics {
+	padding-top: 25px;
+}
+
+#pics div {
+	float: left;
+	height: 133px;
+	width: 133px;
+	text-align: center;
+}
+
+#pics div img {
+	border: 2px solid #222;
+	height: auto;
+	max-height: 110px;
+	width:auto;
+	max-width: 110px;
+	z-index: 2;
+}
+
+#pics div img:hover {
+	border: 2px solid #ddd;
+}
+
+
+#linkdiv {
+	clear: left;
+}
+
+.clip {
+	display: none;
+	position: absolute;
+	top: 150px;
+	left: 300px;
+}
+
+#videos {
+	width: 500px;
+	float: left;
+	padding: 10px;
+}
+
+#videos div {
+	display: none;
+	width: 500px;
+}
+
+#menu {
+	float: left;
+	width: 130px;
+}
+
+#menu img {
+	width: 110px;
+}
