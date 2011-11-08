@@ -31,32 +31,39 @@ p {
 ul {
 	margin: 0;
 	padding: 10px;
+	display: inline;
 }
 
-li {
-	display: block;
+/*li {
+	display: inline;
+}*/
+
+#nav { 
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	z-index: 25;
 }
 
-#pics {
-	padding-top: 25px;
+#nav li { display: block; font-size: 60px; margin-bottom: 15px; z-index: auto;}
+
+#images {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: 600px;
+	overflow: hidden;
+	width: 100%;
 }
 
-#pics div {
+#images ul {
+	list-style: none;
+	margin-right: 0;
+	padding-left: 0;
+}
+
+#images li {
 	float: left;
-	height: 133px;
-	width: 133px;
 	text-align: center;
-}
-
-#pics div img {
-	border: 2px solid #222;
-	height: auto;
-	max-height: 110px;
-	width:auto;
-	max-width: 110px;
-	z-index: 2;
-}
-
-#pics div img:hover {
-	border: 2px solid #ddd;
+	width: 100%;
 }
